@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define         _class          Net
 %define         _subclass       IRC
-%define		_status		alpha
+%define		_status		beta
 
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - IRC Client Class
 Summary(pl):	%{_pearname} - Klasa klienta IRC
 Name:		php-pear-%{_pearname}
-Version:	0.0.6
+Version:	0.0.7
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	de6d4209e16de6e114f92cb7d803a7ab
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	5989ab3973044b0a330565b275667dc8
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -55,5 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/examples/*
+%doc %{_pearname}-%{version}/{examples/*,doc/README}
 %{php_pear_dir}/%{_class}/*.php
