@@ -2,8 +2,8 @@
 %define         _class          Net
 %define         _subclass       IRC
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - IRC Client Class
-Summary(pl):	%{_class}_%{_subclass} - Klasa klienta IRC
+Summary:	%{_pearname} - IRC Client Class
+Summary(pl):	%{_pearname} - Klasa klienta IRC
 Name:		php-pear-%{_pearname}
 Version:	0.0.3
 Release:	2
