@@ -28,7 +28,7 @@ Features are:
  - Full statistic collector
  - API Doc and Usage Manual
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Eksperymentalna klasa IRC pasuj±ca zarówno do aplikacji klienckich,
