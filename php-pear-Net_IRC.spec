@@ -1,6 +1,8 @@
 %include	/usr/lib/rpm/macros.php
 %define         _class          Net
 %define         _subclass       IRC
+%define		_status		alpha
+
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - IRC Client Class
 Summary(pl):	%{_pearname} - Klasa klienta IRC
@@ -25,6 +27,8 @@ Features are:
  - Full statistic collector
  - API Doc and Usage Manual
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Eksperymentalna klasa IRC pasuj±ca zarówno do aplikacji klienckich,
 jak i botów. Zalety:
@@ -33,6 +37,8 @@ jak i botów. Zalety:
  - Pe³ne wsparcie dla logowania
  - Pe³ne statystyki
  - Udokumentowane API oraz podrêcznik
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
