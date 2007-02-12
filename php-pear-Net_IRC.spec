@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - IRC client class
-Summary(pl):	%{_pearname} - klasa klienta IRC
+Summary(pl.UTF-8):   %{_pearname} - klasa klienta IRC
 Name:		php-pear-%{_pearname}
 Version:	0.0.7
 Release:	3
@@ -32,14 +32,14 @@ Features are:
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Eksperymentalna klasa IRC pasuj±ca zarówno do aplikacji klienckich,
-jak i botów. Zalety:
- - Nie-blokuj±cy socket
- - Wiadomo¶ci serwera obs³ugiwane przez systemowy callback
- - Pe³ne wsparcie dla logowania
- - Pe³ne statystyki
- - Udokumentowane API oraz podrêcznik
+%description -l pl.UTF-8
+Eksperymentalna klasa IRC pasujÄ…ca zarÃ³wno do aplikacji klienckich,
+jak i botÃ³w. Zalety:
+ - Nie-blokujÄ…cy socket
+ - WiadomoÅ›ci serwera obsÅ‚ugiwane przez systemowy callback
+ - PeÅ‚ne wsparcie dla logowania
+ - PeÅ‚ne statystyki
+ - Udokumentowane API oraz podrÄ™cznik
 
 Ta klasa ma w PEAR status: %{_status}.
 
