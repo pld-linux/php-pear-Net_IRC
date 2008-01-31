@@ -8,7 +8,7 @@ Summary:	%{_pearname} - IRC client class
 Summary(pl.UTF-8):	%{_pearname} - klasa klienta IRC
 Name:		php-pear-%{_pearname}
 Version:	0.0.7
-Release:	3
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
